@@ -145,8 +145,6 @@ class PreviewHTML(HTMLParser):
         self.output.append(serialize_tag(tag, updated, closed))
         if tag == "head":
             self.output.append(self.builder.head_guard())
-        elif tag == "body":
-            self.output.append(self.builder.banner(self.route))
         elif tag == "form":
             self.output.append(self.builder.form_note(self.route))
 
@@ -243,16 +241,10 @@ document.addEventListener('submit', function (event) {
 }, true);
 </script>
 <style id="portfolio-demo-style">
-.portfolio-demo-note{position:fixed;z-index:2147483647;left:12px;bottom:12px;max-width:calc(100vw - 24px);padding:9px 13px;background:#171717;color:#fff;border:1px solid #777;border-radius:8px;box-shadow:0 4px 18px #0006;font:13px/1.4 system-ui,sans-serif}
-.portfolio-demo-note a,.portfolio-demo-form-note a{color:#ff6b6b;text-decoration:underline}
+.portfolio-demo-form-note a{color:#ff6b6b;text-decoration:underline}
 .portfolio-demo-form-note{font:13px/1.5 system-ui,sans-serif;color:#bdbdbd;margin:0 0 12px}
-@media(max-width:600px){.portfolio-demo-note{font-size:11px;padding:6px 9px;bottom:6px;left:6px;max-width:calc(100vw - 12px)}}
 </style>
 '''
-
-    def banner(self, route: str) -> str:
-        url = escape(self.origin + route, quote=True)
-        return f'<aside class="portfolio-demo-note" aria-label="Демонстрационная версия">Демо проекта · <a href="{url}" target="_blank" rel="noopener noreferrer">Рабочий сайт avtokai.ru</a></aside>'
 
     def form_note(self, route: str) -> str:
         url = escape(self.origin + route, quote=True)
