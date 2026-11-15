@@ -1,0 +1,51 @@
+name: Import public website assets
+
+on:
+  workflow_dispatch:
+
+# This workflow writes only the public files pinned in asset-manifest.json.
+# It does not deploy to REG.RU or read production credentials or customer uploads.
+permissions:
+  contents: write
+
+concurrency:
+  group: import-public-assets-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the selected branch
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check PHP syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v php >/dev/null 2>&1; then
+            find . -path './.git' -prune -o -type f -name '*.php' -print0 | xargs -0 -r -n 1 php -l
+          else
+            docker run --rm --network none --volume "$PWD:/app" --workdir /app php:8.3-cli \
+              sh -c 'find . -path "./.git" -prune -o -type f -name "*.php" -print0 | xargs -0 -r -n 1 php -l'
+          fi
+      - name: Download and verify public assets
+        run: python import-assets.py --pathspec-file "$RUNNER_TEMP/avtokai-assets.pathspec"
+      - name: Commit only the verified public assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git --literal-pathspecs add --pathspec-from-file="$RUNNER_TEMP/avtokai-assets.pathspec" --pathspec-file-nul
+          if git diff --cached --quiet; then
+            echo "All public assets are already present."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Import verified public assets from avtokai.ru'
+          git push origin "HEAD:${GITHUB_REF_NAME}"
