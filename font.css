@@ -1,0 +1,33 @@
+/* ===== СИСТЕМНЫЕ ШРИФТЫ APPLE ===== */
+:root {
+    --font-system: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 
+                   'Helvetica Neue', 'Segoe UI', Roboto, Arial, sans-serif;
+    --font-system-bold: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 
+                        'Helvetica Neue', 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-system);
+    font-weight: 400;
+}
+
+/* Все заголовки и жирный текст */
+h1, h2, h3, h4, h5, h6,
+.logo-text,
+.section-title,
+.btn,
+.nav-link,
+.header-phone,
+.footer-title,
+.hero-stat-number,
+.case-price,
+.step-number {
+    font-weight: 700;
+    font-family: var(--font-system-bold);
+}
+
+/* Экстра-жирный для особых случаев */
+.hero h1,
+.logo-text {
+    font-weight: 800;
+}

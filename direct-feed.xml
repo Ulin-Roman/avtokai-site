@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-10-27 01:08">
+  <shop>
+    <name>Автокай</name>
+    <company>Автокай</company>
+    <url>https://avtokai.ru/</url>
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Выкуп автомобилей</category>
+    </categories>
+    <offers>
+      <offer id="1">
+        <url>https://avtokai.ru/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-home-01.png?v=5d14efe09193</picture>
+        <picture>https://avtokai.ru/feed-home-02.png</picture>
+        <picture>https://avtokai.ru/feed-home-03.png</picture>
+        <picture>https://avtokai.ru/feed-home-04.png?v=dac4a9a0f15b</picture>
+        <picture>https://avtokai.ru/feed-home-05.png</picture>
+        <name>Выкуп авто в СПб</name>
+        <description>Выкуп легковых автомобилей с пробегом в Санкт-Петербурге и Ленинградской области. Предварительная оценка, осмотр автомобиля и оформление договора.</description>
+      </offer>
+      <offer id="2">
+        <url>https://avtokai.ru/avtovykup-v-spb/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-spb-01.png?v=a57867a77f01</picture>
+        <picture>https://avtokai.ru/feed-spb-02.png</picture>
+        <picture>https://avtokai.ru/feed-spb-03.png</picture>
+        <picture>https://avtokai.ru/feed-spb-04.png?v=dd42cb04017a</picture>
+        <picture>https://avtokai.ru/feed-spb-05.png</picture>
+        <name>Автовыкуп в СПб</name>
+        <description>Автовыкуп автомобилей в исправном и неисправном состоянии в Санкт-Петербурге и Ленинградской области. Оценка по параметрам и состоянию автомобиля.</description>
+      </offer>
+      <offer id="3">
+        <url>https://avtokai.ru/vykup-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-vykup-01.png?v=807e5944086b</picture>
+        <picture>https://avtokai.ru/feed-vykup-02.png</picture>
+        <picture>https://avtokai.ru/feed-vykup-03.png</picture>
+        <picture>https://avtokai.ru/feed-vykup-04.png?v=43c94f594162</picture>
+        <picture>https://avtokai.ru/feed-vykup-05.png</picture>
+        <name>Выкуп авто в СПб и Ленинградской области</name>
+        <description>Выкупаем авто в любом состоянии. Бесплатная оценка, оформление за наш счёт.</description>
+        <collectionId>vykup-avto</collectionId>
+      </offer>
+      <offer id="4">
+        <url>https://avtokai.ru/srochnyj-vykup-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-urgent-01.png?v=22929b788545</picture>
+        <picture>https://avtokai.ru/feed-urgent-02.png</picture>
+        <picture>https://avtokai.ru/feed-urgent-03.png</picture>
+        <picture>https://avtokai.ru/feed-urgent-04.png?v=ea87b89c3eed</picture>
+        <picture>https://avtokai.ru/feed-urgent-05.png</picture>
+        <name>Срочный выкуп авто в СПб и Ленобласти</name>
+        <description>Срочно продайте машину без долгих объявлений. Оценка, выезд и расчёт.</description>
+        <collectionId>srochnyj-vykup-avto</collectionId>
+      </offer>
+      <offer id="5">
+        <url>https://avtokai.ru/skupka-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-skupka-01.png?v=fd384097c75b</picture>
+        <picture>https://avtokai.ru/feed-skupka-02.png</picture>
+        <picture>https://avtokai.ru/feed-skupka-03.png</picture>
+        <picture>https://avtokai.ru/feed-skupka-04.png?v=e643ce885922</picture>
+        <picture>https://avtokai.ru/feed-skupka-05.png</picture>
+        <name>Скупка автомобилей в СПб и Ленобласти</name>
+        <description>Скупка автомобилей с пробегом и после ДТП. Выезд оценщика по СПб и области.</description>
+        <collectionId>skupka-avto</collectionId>
+      </offer>
+      <offer id="6">
+        <url>https://avtokai.ru/prodat-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-sell-01.png?v=975de929063e</picture>
+        <picture>https://avtokai.ru/feed-sell-02.png</picture>
+        <picture>https://avtokai.ru/feed-sell-03.png</picture>
+        <picture>https://avtokai.ru/feed-sell-04.png?v=d0e798e453d8</picture>
+        <picture>https://avtokai.ru/feed-sell-05.png</picture>
+        <name>Продать авто в Санкт-Петербурге и Ленобласти</name>
+        <description>Продайте автомобиль без посредников. Оценим, оформим сделку и выплатим деньги.</description>
+        <collectionId>prodat-avto</collectionId>
+      </offer>
+      <offer id="7">
+        <url>https://avtokai.ru/avtovykup/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-avtovykup-01.png?v=b76e88f0ad16</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-02.png?v=3020fc279038</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-03.png</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-04.png</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-05.png</picture>
+        <name>Автовыкуп в СПб и Ленинградской области</name>
+        <description>Автовыкуп в СПб и области: битые, кредитные, неисправные и целые автомобили.</description>
+        <collectionId>avtovykup</collectionId>
+      </offer>
+      <offer id="8">
+        <url>https://avtokai.ru/prodat-mashinu-bystro/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-fast-sale-01.png?v=3540af1f926a</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-02.png?v=c305d6728b12</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-03.png</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-04.png</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-05.png</picture>
+        <name>Продать машину быстро в СПб и Ленобласти</name>
+        <description>Поможем быстро продать машину. Бесплатная оценка, выезд и оформление.</description>
+        <collectionId>prodat-mashinu-bystro</collectionId>
+      </offer>
+      <offer id="9">
+        <url>https://avtokai.ru/vykup-bityh-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-bityh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-05.png</picture>
+        <name>Выкуп битых авто в СПб и Ленобласти</name>
+        <description>Выкуп битых авто в Санкт-Петербурге и Ленинградской области. Бесплатная оценка по фото и на осмотре. Эвакуатор для машин не на ходу. Оставьте заявку в Автокай.</description>
+        <collectionId>vykup-bityh-avto</collectionId>
+      </offer>
+      <offer id="10">
+        <url>https://avtokai.ru/vykup-kreditnyh-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-05.png</picture>
+        <name>Выкуп кредитных авто в СПб и Ленобласти</name>
+        <description>Выкуп кредитных автомобилей в Санкт-Петербурге и Ленинградской области. Бесплатная оценка машины, согласование с банком и расчёт с учётом остатка кредита.</description>
+        <collectionId>vykup-kreditnyh-avto</collectionId>
+      </offer>
+      <offer id="11">
+        <url>https://avtokai.ru/vykup-neispravnyh-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-05.png</picture>
+        <name>Выкуп неисправных авто в СПб и Ленобласти</name>
+        <description>Выкуп неисправных авто в Санкт-Петербурге и Ленинградской области. Оценим машину с поломкой двигателя, коробки или других узлов. Бесплатный эвакуатор для авто не на ходу.</description>
+        <collectionId>vykup-neispravnyh-avto</collectionId>
+      </offer>
+      <offer id="12">
+        <url>https://avtokai.ru/vykup-avto-posle-dtp/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-05.png</picture>
+        <name>Выкуп авто после ДТП в СПб и Ленобласти</name>
+        <description>Выкуп автомобилей после ДТП в Санкт-Петербурге и Ленинградской области. Оценка повреждений по фото и на месте, выезд оценщика и бесплатный эвакуатор для авто не на ходу.</description>
+        <collectionId>vykup-avto-posle-dtp</collectionId>
+      </offer>
+      <offer id="13">
+        <url>https://avtokai.ru/vykup-avto-s-probegom/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-s-probegom-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-05.png</picture>
+        <name>Выкуп авто с пробегом в СПб и Ленобласти</name>
+        <description>Выкуп автомобилей с пробегом в Санкт-Петербурге и Ленинградской области. Бесплатная оценка по фото и на осмотре. Оформление по договору, наличные или перевод.</description>
+        <collectionId>vykup-avto-s-probegom</collectionId>
+      </offer>
+      <offer id="14">
+        <url>https://avtokai.ru/vykup-staryh-avto/</url>
+        <categoryId>1</categoryId>
+        <picture>https://avtokai.ru/feed-service-staryh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-05.png</picture>
+        <name>Выкуп старых авто в СПб и Ленобласти</name>
+        <description>Выкуп старых автомобилей в Санкт-Петербурге и Ленинградской области. Оценим возраст, пробег и состояние машины. Бесплатный выезд оценщика и заявка онлайн.</description>
+        <collectionId>vykup-staryh-avto</collectionId>
+      </offer>
+    </offers>
+    <collections>
+      <collection id="vykup-avto">
+        <url>https://avtokai.ru/vykup-avto/</url>
+        <picture>https://avtokai.ru/feed-vykup-01.png?v=807e5944086b</picture>
+        <picture>https://avtokai.ru/feed-vykup-02.png</picture>
+        <picture>https://avtokai.ru/feed-vykup-03.png</picture>
+        <picture>https://avtokai.ru/feed-vykup-04.png?v=43c94f594162</picture>
+        <picture>https://avtokai.ru/feed-vykup-05.png</picture>
+        <name>Выкуп авто в СПб и Ленинградской области</name>
+        <description>Выкупаем авто в любом состоянии. Бесплатная оценка, оформление за наш счёт.</description>
+      </collection>
+      <collection id="srochnyj-vykup-avto">
+        <url>https://avtokai.ru/srochnyj-vykup-avto/</url>
+        <picture>https://avtokai.ru/feed-urgent-01.png?v=22929b788545</picture>
+        <picture>https://avtokai.ru/feed-urgent-02.png</picture>
+        <picture>https://avtokai.ru/feed-urgent-03.png</picture>
+        <picture>https://avtokai.ru/feed-urgent-04.png?v=ea87b89c3eed</picture>
+        <picture>https://avtokai.ru/feed-urgent-05.png</picture>
+        <name>Срочный выкуп авто в СПб и Ленобласти</name>
+        <description>Срочно продайте машину без долгих объявлений. Оценка, выезд и расчёт.</description>
+      </collection>
+      <collection id="skupka-avto">
+        <url>https://avtokai.ru/skupka-avto/</url>
+        <picture>https://avtokai.ru/feed-skupka-01.png?v=fd384097c75b</picture>
+        <picture>https://avtokai.ru/feed-skupka-02.png</picture>
+        <picture>https://avtokai.ru/feed-skupka-03.png</picture>
+        <picture>https://avtokai.ru/feed-skupka-04.png?v=e643ce885922</picture>
+        <picture>https://avtokai.ru/feed-skupka-05.png</picture>
+        <name>Скупка автомобилей в СПб и Ленобласти</name>
+        <description>Скупка автомобилей с пробегом и после ДТП. Выезд оценщика по СПб и области.</description>
+      </collection>
+      <collection id="prodat-avto">
+        <url>https://avtokai.ru/prodat-avto/</url>
+        <picture>https://avtokai.ru/feed-sell-01.png?v=975de929063e</picture>
+        <picture>https://avtokai.ru/feed-sell-02.png</picture>
+        <picture>https://avtokai.ru/feed-sell-03.png</picture>
+        <picture>https://avtokai.ru/feed-sell-04.png?v=d0e798e453d8</picture>
+        <picture>https://avtokai.ru/feed-sell-05.png</picture>
+        <name>Продать авто в Санкт-Петербурге и Ленобласти</name>
+        <description>Продайте автомобиль без посредников. Оценим, оформим сделку и выплатим деньги.</description>
+      </collection>
+      <collection id="avtovykup">
+        <url>https://avtokai.ru/avtovykup/</url>
+        <picture>https://avtokai.ru/feed-avtovykup-01.png?v=b76e88f0ad16</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-02.png?v=3020fc279038</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-03.png</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-04.png</picture>
+        <picture>https://avtokai.ru/feed-avtovykup-05.png</picture>
+        <name>Автовыкуп в СПб и Ленинградской области</name>
+        <description>Автовыкуп в СПб и области: битые, кредитные, неисправные и целые автомобили.</description>
+      </collection>
+      <collection id="prodat-mashinu-bystro">
+        <url>https://avtokai.ru/prodat-mashinu-bystro/</url>
+        <picture>https://avtokai.ru/feed-fast-sale-01.png?v=3540af1f926a</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-02.png?v=c305d6728b12</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-03.png</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-04.png</picture>
+        <picture>https://avtokai.ru/feed-fast-sale-05.png</picture>
+        <name>Продать машину быстро в СПб и Ленобласти</name>
+        <description>Поможем быстро продать машину. Бесплатная оценка, выезд и оформление.</description>
+      </collection>
+      <collection id="vykup-bityh-avto">
+        <url>https://avtokai.ru/vykup-bityh-avto/</url>
+        <picture>https://avtokai.ru/feed-service-bityh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-bityh-05.png</picture>
+        <name>Выкуп битых авто в СПб и Ленобласти</name>
+        <description>Выкуп битых авто в Санкт-Петербурге и Ленинградской области. Бесплатная оценка по фото и на осмотре. Эвакуатор для машин не на ходу. Оставьте заявку в Автокай.</description>
+      </collection>
+      <collection id="vykup-kreditnyh-avto">
+        <url>https://avtokai.ru/vykup-kreditnyh-avto/</url>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-kreditnyh-05.png</picture>
+        <name>Выкуп кредитных авто в СПб и Ленобласти</name>
+        <description>Выкуп кредитных автомобилей в Санкт-Петербурге и Ленинградской области. Бесплатная оценка машины, согласование с банком и расчёт с учётом остатка кредита.</description>
+      </collection>
+      <collection id="vykup-neispravnyh-avto">
+        <url>https://avtokai.ru/vykup-neispravnyh-avto/</url>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-neispravnyh-05.png</picture>
+        <name>Выкуп неисправных авто в СПб и Ленобласти</name>
+        <description>Выкуп неисправных авто в Санкт-Петербурге и Ленинградской области. Оценим машину с поломкой двигателя, коробки или других узлов. Бесплатный эвакуатор для авто не на ходу.</description>
+      </collection>
+      <collection id="vykup-avto-posle-dtp">
+        <url>https://avtokai.ru/vykup-avto-posle-dtp/</url>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-posle-dtp-05.png</picture>
+        <name>Выкуп авто после ДТП в СПб и Ленобласти</name>
+        <description>Выкуп автомобилей после ДТП в Санкт-Петербурге и Ленинградской области. Оценка повреждений по фото и на месте, выезд оценщика и бесплатный эвакуатор для авто не на ходу.</description>
+      </collection>
+      <collection id="vykup-avto-s-probegom">
+        <url>https://avtokai.ru/vykup-avto-s-probegom/</url>
+        <picture>https://avtokai.ru/feed-service-s-probegom-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-s-probegom-05.png</picture>
+        <name>Выкуп авто с пробегом в СПб и Ленобласти</name>
+        <description>Выкуп автомобилей с пробегом в Санкт-Петербурге и Ленинградской области. Бесплатная оценка по фото и на осмотре. Оформление по договору, наличные или перевод.</description>
+      </collection>
+      <collection id="vykup-staryh-avto">
+        <url>https://avtokai.ru/vykup-staryh-avto/</url>
+        <picture>https://avtokai.ru/feed-service-staryh-01.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-02.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-03.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-04.png</picture>
+        <picture>https://avtokai.ru/feed-service-staryh-05.png</picture>
+        <name>Выкуп старых авто в СПб и Ленобласти</name>
+        <description>Выкуп старых автомобилей в Санкт-Петербурге и Ленинградской области. Оценим возраст, пробег и состояние машины. Бесплатный выезд оценщика и заявка онлайн.</description>
+      </collection>
+    </collections>
+  </shop>
+</yml_catalog>

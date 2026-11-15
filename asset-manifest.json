@@ -1,0 +1,732 @@
+{
+  "schema_version": 1,
+  "source_origin": "https://avtokai.ru",
+  "imported_on": "2026-11-15",
+  "assets": [
+    {
+      "path": "a/10.jpg",
+      "size": 123896,
+      "sha256": "23c10a1c00f7a74b4ceb8463b03af51900417d9e9fd949e32ea504ba662795ee"
+    },
+    {
+      "path": "a/12.jpg",
+      "size": 199838,
+      "sha256": "550cead0f41be6f9def2396d396426a2307c4b38efd903cb5803cf1454426292"
+    },
+    {
+      "path": "a/13.jpg",
+      "size": 130474,
+      "sha256": "96bb24d4a17199bbdcd18beb6c92c1292e61e816427e693be75c1efbb55219eb"
+    },
+    {
+      "path": "a/2.jpg",
+      "size": 100857,
+      "sha256": "16a695730afc38c75028391821d6a9b0d0ffd6a622f7431a1bd54156158d30f5"
+    },
+    {
+      "path": "a/3.jpg",
+      "size": 105524,
+      "sha256": "1ea5adc927875e4c5a28edac246edd268f481dca34d39b3f1689b0b730925e8c"
+    },
+    {
+      "path": "a/7.jpg",
+      "size": 100874,
+      "sha256": "4e2a2f0903f4c146388a42c59dd9e3bf56700976d277d8b684398565553fde1f"
+    },
+    {
+      "path": "a/8.jpg",
+      "size": 135217,
+      "sha256": "5277d6560a008a6f394138658a7d17401b3111c1f0868af2e562e038ec5d35a9"
+    },
+    {
+      "path": "a/9.jpg",
+      "size": 217586,
+      "sha256": "3b3835768f5cc8724c5b8678366b872a01ba4dd426b7f6ff158b4ef61e862c1a"
+    },
+    {
+      "path": "a/q2.jpg",
+      "size": 116399,
+      "sha256": "2a14fa4c23c83468bc9c0900000427ae6ca3a8a355abf7487650d57f18e5c60d"
+    },
+    {
+      "path": "a/q3.jpg",
+      "size": 104070,
+      "sha256": "63a87b1334d46175e89024803f22e89d109d441389abcde36119378d61b62c80"
+    },
+    {
+      "path": "a/q4.jpg",
+      "size": 96534,
+      "sha256": "84c9a63d0473f8b6342b402226a96ca15b2cf323296f5f6bb6f56fd65f920ff5"
+    },
+    {
+      "path": "baner.jpg",
+      "size": 102306,
+      "sha256": "fa086346bdbf0080310c5abf4a8dc5c18cd6e4511b3a0f94e7bf5eaa0e244481"
+    },
+    {
+      "path": "case-audi-coupe-2026-10-28.jpg",
+      "size": 274454,
+      "sha256": "c78270ba284f594b9952be03908ac3b34ebdc5ed5964969e7858ea674ac474b4"
+    },
+    {
+      "path": "creative-any-condition.png",
+      "size": 2496361,
+      "sha256": "5f73eb5a152d2e5b7d6d2e6e4ceaecc416babbf141c016cf6e5062eeb73d361d"
+    },
+    {
+      "path": "creative-avtovykup-spb.png",
+      "size": 2179208,
+      "sha256": "ad721c91c3fea78cc8e05187fe5bc655cfc7dd93d48f0c7c79fc6b558b4ca24c"
+    },
+    {
+      "path": "creative-free-appraisal.png",
+      "size": 1988557,
+      "sha256": "a35bafd25f3c18ce7dcf00ddbd7fd94dc39d073de8c215a6f3cc45695acd1e59"
+    },
+    {
+      "path": "epi/q1.jpg",
+      "size": 65927,
+      "sha256": "6e488dad62b664c996d55598549bbeb014b1a58cdb9448cb7f669d5900c85176"
+    },
+    {
+      "path": "epi/q2.jpg",
+      "size": 68176,
+      "sha256": "12c88fa376389b117386eda60e057b41bd3038771f8d0cbe1e5483ebf302d017"
+    },
+    {
+      "path": "epi/q3.jpg",
+      "size": 66621,
+      "sha256": "945829b477dc5b51567756bcf76e7238f69f39fe76661cfb3704a6749bd64c8d"
+    },
+    {
+      "path": "favicon.ico",
+      "size": 10282,
+      "sha256": "a77ab4ed36b63e7c7c92dd84cf5eb475559bf80831bcabc7f84b956296cb6216"
+    },
+    {
+      "path": "feed-avtovykup-01.png",
+      "size": 2205317,
+      "sha256": "b76e88f0ad16e50a0e3b6ccdca231acbe29cf57cfce389324d987aa641531d96"
+    },
+    {
+      "path": "feed-avtovykup-02.png",
+      "size": 2082848,
+      "sha256": "3020fc279038f07c5b71a3c21901f27d94b917c5c98367c80ec49c8ca982b2a4"
+    },
+    {
+      "path": "feed-avtovykup-03.png",
+      "size": 1913912,
+      "sha256": "1d9965dc58c5917ea2a33201938bae966804612e28b7a80f9c8fcccd2baaea5d"
+    },
+    {
+      "path": "feed-avtovykup-04.png",
+      "size": 2193107,
+      "sha256": "1c42e408798c94c0a781baa2d17929e1a55dc59b753d2673f7f0d4fa0735ce17"
+    },
+    {
+      "path": "feed-avtovykup-05.png",
+      "size": 2170743,
+      "sha256": "502b7971366dc46eb7ab9fb852941238f208221bbce52956011b49596cab6804"
+    },
+    {
+      "path": "feed-fast-sale-01.png",
+      "size": 2115793,
+      "sha256": "3540af1f926a0e1e8ba347f71585dcc0f3c84bc786b97faf05bced4e460f3a80"
+    },
+    {
+      "path": "feed-fast-sale-02.png",
+      "size": 1970816,
+      "sha256": "c305d6728b126f7cc2a63a2c1e76e8aa4dc54cc4431e73e7bc3583549d05b8dd"
+    },
+    {
+      "path": "feed-fast-sale-03.png",
+      "size": 1974784,
+      "sha256": "21a5214f46d8fb184845f03b6bdd401188942de1998643813f4a6c63bc3af92f"
+    },
+    {
+      "path": "feed-fast-sale-04.png",
+      "size": 2280228,
+      "sha256": "acd60639c9b4f47303a0051e09be4608cfa78973682efb2cbb7ec6ba5c516adc"
+    },
+    {
+      "path": "feed-fast-sale-05.png",
+      "size": 2140765,
+      "sha256": "7c279be1de3a6743497aadac65d7dad1519623b64dccedf28192f02adf5d3d1e"
+    },
+    {
+      "path": "feed-home-01.png",
+      "size": 2250826,
+      "sha256": "5d14efe091935f67c05b62e396b7a7a899eff136d68b6ba332bb1224816921a3"
+    },
+    {
+      "path": "feed-home-02.png",
+      "size": 1995184,
+      "sha256": "188674ed552ae23dcdc8781974e3f37b023af34c645cb3038449183bbc177792"
+    },
+    {
+      "path": "feed-home-03.png",
+      "size": 2110526,
+      "sha256": "d6ac8b1d35b57c395f7b84f3b15e8b71e0e86f909c80ff312b9d9e3051c835c7"
+    },
+    {
+      "path": "feed-home-04.png",
+      "size": 2510391,
+      "sha256": "dac4a9a0f15bcf7b65165dd0165e946ea6fd065f1f1458799e047a3ce28e3151"
+    },
+    {
+      "path": "feed-home-05.png",
+      "size": 2147630,
+      "sha256": "da05b1f47a6e96a996cbc7ee328ac74b1bd26a7e1a8af29ba6caacc42039afc9"
+    },
+    {
+      "path": "feed-sell-01.png",
+      "size": 2085970,
+      "sha256": "975de929063e384c78e676759409c8353529aea103eed47f824b8af4fea5315b"
+    },
+    {
+      "path": "feed-sell-02.png",
+      "size": 2269916,
+      "sha256": "cee81cf12416b92123e44450b7c32473118bbf0e3c95cb3643e80ffd744a4adf"
+    },
+    {
+      "path": "feed-sell-03.png",
+      "size": 1920441,
+      "sha256": "5d3302ce7176714b2d47d5189066b890d705cdc6c552964e65e8cb4d85ef5004"
+    },
+    {
+      "path": "feed-sell-04.png",
+      "size": 2204510,
+      "sha256": "d0e798e453d81c8ed3e5a0cd1e475c4b2a7cf34b5da30f17dc9cee0a0389ffa6"
+    },
+    {
+      "path": "feed-sell-05.png",
+      "size": 2212409,
+      "sha256": "ad6decdf8f5e2e6bc46227176d580fd22bddcdfd8483e0b7253436f3f52045b6"
+    },
+    {
+      "path": "feed-service-bityh-01.png",
+      "size": 2607920,
+      "sha256": "c230e0c52299bb24e782df839729df3e18e025c390929f7058951696427c1bda"
+    },
+    {
+      "path": "feed-service-bityh-02.png",
+      "size": 2665207,
+      "sha256": "3d8a74fa32868a2a59037c4fad6d9339c84f0d7d116ba5765034e916eedba5ae"
+    },
+    {
+      "path": "feed-service-bityh-03.png",
+      "size": 2409728,
+      "sha256": "1d11424799b18cb93489266a679e0a5c83f53b2d7050dab00082ff2d89432b49"
+    },
+    {
+      "path": "feed-service-bityh-04.png",
+      "size": 2576589,
+      "sha256": "2e7e89649cbda336cbed5ebb027227eafa7c71b08f0ecd350c63d567e8c10c8a"
+    },
+    {
+      "path": "feed-service-bityh-05.png",
+      "size": 2615746,
+      "sha256": "1089550de9f7f1d0b8327b5c6f8b37e730739eccbe51473b74c9cbbae139bd50"
+    },
+    {
+      "path": "feed-service-kreditnyh-01.png",
+      "size": 2172664,
+      "sha256": "0a36bb788d76892ded167a2b2675eabd50a84cd3c1517df05102f7b834b366a9"
+    },
+    {
+      "path": "feed-service-kreditnyh-02.png",
+      "size": 2128656,
+      "sha256": "778abf61d05429a36d0aa5d00ee87a8dd6c46195752cad70c4adb3e39617c2dc"
+    },
+    {
+      "path": "feed-service-kreditnyh-03.png",
+      "size": 2264823,
+      "sha256": "3632297bd06ee40bae2ed35c003bc0220574067e0489aecc4b1fddc6cffa6544"
+    },
+    {
+      "path": "feed-service-kreditnyh-04.png",
+      "size": 2228254,
+      "sha256": "a768310bad9ca77519add5d591057495a7af6926e32061e620021255b204140d"
+    },
+    {
+      "path": "feed-service-kreditnyh-05.png",
+      "size": 2186419,
+      "sha256": "b018f685728d39739d57d5cb6b42624847631c17de12e9403f027d3bcf8297c7"
+    },
+    {
+      "path": "feed-service-neispravnyh-01.png",
+      "size": 2343846,
+      "sha256": "7e1c1ca8f009db58ad3d132acc21e42859fbb8e7aa6af39299a51723092822d2"
+    },
+    {
+      "path": "feed-service-neispravnyh-02.png",
+      "size": 2194321,
+      "sha256": "65e3fc845b6e3d83713062165576595db31f7e0e152eb9b966d80d16dc5a9acb"
+    },
+    {
+      "path": "feed-service-neispravnyh-03.png",
+      "size": 2204550,
+      "sha256": "7ffb1a0f188c598ca7f89ae2c0aba7dc407a821893bd03b2e561fee6ae68272c"
+    },
+    {
+      "path": "feed-service-neispravnyh-04.png",
+      "size": 2298483,
+      "sha256": "a5221efdcc6d83e16155f868010d063a68cec2319141796c55ed1960e9722052"
+    },
+    {
+      "path": "feed-service-neispravnyh-05.png",
+      "size": 2358890,
+      "sha256": "5d35219360e65ccec830ba455ee157b9445ebee661639242f7f7e2368bc3c08e"
+    },
+    {
+      "path": "feed-service-posle-dtp-01.png",
+      "size": 2558513,
+      "sha256": "8c0bee34eaac3d0aceee2c290dc336c0123fbb63972d99914d4fca4e86618680"
+    },
+    {
+      "path": "feed-service-posle-dtp-02.png",
+      "size": 2347473,
+      "sha256": "56b9df4017f589661d4233a1a1bbde8c6a4aee34e831dbb4faae9277c5a3c0a8"
+    },
+    {
+      "path": "feed-service-posle-dtp-03.png",
+      "size": 2500423,
+      "sha256": "abda18436d5f6c9daa1051cae2b9d123963038d60b01657737e05617bef5eafa"
+    },
+    {
+      "path": "feed-service-posle-dtp-04.png",
+      "size": 2542855,
+      "sha256": "b135119920fa9f452f9b98de5abbc8323d6097d2b8097836aac750f1006a6d9e"
+    },
+    {
+      "path": "feed-service-posle-dtp-05.png",
+      "size": 2562647,
+      "sha256": "6f2d94b271d819d9af88a53bd4544e1f8e438a697b85ba0f9849de5c6f122486"
+    },
+    {
+      "path": "feed-service-s-probegom-01.png",
+      "size": 2344526,
+      "sha256": "a5af37f81326a38e53fe133ad264813e756eeda52fee9d1b6a34700c24e218bb"
+    },
+    {
+      "path": "feed-service-s-probegom-02.png",
+      "size": 2334421,
+      "sha256": "c7fbd709a7d6cbd3d8063acc30d22ced311b70ece9f5f9d56e048bf3c22b4c5b"
+    },
+    {
+      "path": "feed-service-s-probegom-03.png",
+      "size": 2449664,
+      "sha256": "dbe5b6210c1dfd68ea215800b8b6b420aa70b94411794a03f5320ec8348f250c"
+    },
+    {
+      "path": "feed-service-s-probegom-04.png",
+      "size": 2513936,
+      "sha256": "c67b784a9a117c82cf9703099120dba6d04e10039406f01661061bd572ca997f"
+    },
+    {
+      "path": "feed-service-s-probegom-05.png",
+      "size": 2296206,
+      "sha256": "88004ee529f00e6bcd0697e81f34185e7a15e72a157fdb4060bbe018c686ea8a"
+    },
+    {
+      "path": "feed-service-staryh-01.png",
+      "size": 2294829,
+      "sha256": "5f55e638bc178f4f96cc8236618a808feb9243bbe20214153f34b904c05d580a"
+    },
+    {
+      "path": "feed-service-staryh-02.png",
+      "size": 2454459,
+      "sha256": "e3f8291b458c973aa7631033a2449d0bea6591d2a35a0a80f93fea6e835f04b0"
+    },
+    {
+      "path": "feed-service-staryh-03.png",
+      "size": 2371002,
+      "sha256": "54687706abb09ed2a23bc8025758b763e6bea517633afc924257f3731952e9a6"
+    },
+    {
+      "path": "feed-service-staryh-04.png",
+      "size": 2497780,
+      "sha256": "efeca809e3ac159411cf6baf91b3e964b95b3b1acd5bd8b85e7968db424c39f7"
+    },
+    {
+      "path": "feed-service-staryh-05.png",
+      "size": 2481692,
+      "sha256": "e2c8dcf18540e13c07127422422e2fd8eee803cdbeb3b0d82f13f83162f2140b"
+    },
+    {
+      "path": "feed-skupka-01.png",
+      "size": 2097260,
+      "sha256": "fd384097c75bf7b4d031bbba74ff4d6dca1bc4cb9ad6eeaa687e4cac2f79040e"
+    },
+    {
+      "path": "feed-skupka-02.png",
+      "size": 2178946,
+      "sha256": "dd8ad1dd86fbddaa9e2746dc4eccd83df1dbe5160741f702cca065857a9155d9"
+    },
+    {
+      "path": "feed-skupka-03.png",
+      "size": 1838110,
+      "sha256": "7a488bfee81c2d83fcbefb378d2a94b1a18fe07d853b7cf70a1d343acf8642ce"
+    },
+    {
+      "path": "feed-skupka-04.png",
+      "size": 2096656,
+      "sha256": "e643ce8859221a7a5fadf0c77b34fafdeb68b20d105f7df8453ab0001a56ec60"
+    },
+    {
+      "path": "feed-skupka-05.png",
+      "size": 2400309,
+      "sha256": "e96a8fb04805338f11c91ec2598b53d100958e9c7b77ba160c0967cfee051de4"
+    },
+    {
+      "path": "feed-spb-01.png",
+      "size": 2118831,
+      "sha256": "a57867a77f0125191b7b7b5413aaad3d730d5d7fd446a95ff60e4d886893b0e8"
+    },
+    {
+      "path": "feed-spb-02.png",
+      "size": 2326725,
+      "sha256": "6c09e7be9a4276a62b521dde19b389ea9e13117d102c26114b2544580ef57f16"
+    },
+    {
+      "path": "feed-spb-03.png",
+      "size": 2190793,
+      "sha256": "47fc2c3d396da88dc66a3cd3e4ba7884ec360d3784fe614fa77fa504a16841db"
+    },
+    {
+      "path": "feed-spb-04.png",
+      "size": 2100231,
+      "sha256": "dd42cb04017a9f783037bd7593027fc3e7ea9caf4e8a82b8f462b2f2d5e96249"
+    },
+    {
+      "path": "feed-spb-05.png",
+      "size": 1910534,
+      "sha256": "79f7a53e95fa209291de08536106f92bd3553dc57210d60e5b34573c42a5371d"
+    },
+    {
+      "path": "feed-urgent-01.png",
+      "size": 2157187,
+      "sha256": "22929b7885456aca1bb8df2d4aa083c05186f4f23ac269ad64e6dfe72569bed9"
+    },
+    {
+      "path": "feed-urgent-02.png",
+      "size": 2202433,
+      "sha256": "7842d81408f586190df699c5010c877bf846f7d5a4c10c8ea7cba267e7366c28"
+    },
+    {
+      "path": "feed-urgent-03.png",
+      "size": 1880225,
+      "sha256": "edc8448a1417e7163c48106bf869ed0beffef846dafcc1df839e4ece27faf89a"
+    },
+    {
+      "path": "feed-urgent-04.png",
+      "size": 2232360,
+      "sha256": "ea87b89c3eeda0d996889ddc69eddc69a3307d33c996964034eab877f70f3638"
+    },
+    {
+      "path": "feed-urgent-05.png",
+      "size": 2023173,
+      "sha256": "660c851e2d3b599a1d8325615bb9e798a294f7a8e4660eb96b439433b0b00d8f"
+    },
+    {
+      "path": "feed-vykup-01.png",
+      "size": 2070331,
+      "sha256": "807e5944086bc8f2cb6df8a53b8798ee75e81e8a90646cd05c948e65c290164c"
+    },
+    {
+      "path": "feed-vykup-02.png",
+      "size": 2239803,
+      "sha256": "a2a2b73ffe2bcd7cd417b4890b9afcf907ebf867f58a644c8d0f20184dc60fdc"
+    },
+    {
+      "path": "feed-vykup-03.png",
+      "size": 2014990,
+      "sha256": "1576d9184653426eae108c5e21b60a5aa064b93eb14d7abb0f0f5b9d88301ae0"
+    },
+    {
+      "path": "feed-vykup-04.png",
+      "size": 2211139,
+      "sha256": "43c94f594162facf2a9361c519d8afa43a8103613956961d0e9f6ad9513f7f56"
+    },
+    {
+      "path": "feed-vykup-05.png",
+      "size": 2043054,
+      "sha256": "69d3d6b32acda11ac06aa54ead440e2fa2066854e7619522653f6dad18b01b13"
+    },
+    {
+      "path": "fonts/fa-brands-400.woff2",
+      "size": 1208,
+      "sha256": "3eedaed85637414317c2e5352db4dd83f13eb54954d7668f16c984dd7667be84"
+    },
+    {
+      "path": "fonts/fa-solid-900.woff2",
+      "size": 4440,
+      "sha256": "646458d57f9a2324836a4f13e5c4227277a316437c2b4265fef13f01b45952ff"
+    },
+    {
+      "path": "hero-avtovykup-cash.webp",
+      "size": 273180,
+      "sha256": "71f9e049a4c0e5fc61ff5105121ca0fda0cc24738ee330ad0b40711a0a0bb16e"
+    },
+    {
+      "path": "hero-car.jpg",
+      "size": 102306,
+      "sha256": "fa086346bdbf0080310c5abf4a8dc5c18cd6e4511b3a0f94e7bf5eaa0e244481"
+    },
+    {
+      "path": "hero-prodat-mobile.webp",
+      "size": 206284,
+      "sha256": "c2cdc1d8183671d2c4c3984c1b0fd8c32ba0dba53c5ac41f8901f172c17f7a40"
+    },
+    {
+      "path": "hero-prodat-phone.webp",
+      "size": 551642,
+      "sha256": "0141e18b9b90efa00637091386de1e5044ba5f6aa5129ed419dbde86e6a4cc8b"
+    },
+    {
+      "path": "hero-vykup-bityh-mobile.webp",
+      "size": 302456,
+      "sha256": "e75b29bfac55ae3edb934a6fda8f13926149d275ad709b06938d66df9acfac58"
+    },
+    {
+      "path": "hero-vykup-garage.webp",
+      "size": 152930,
+      "sha256": "e5942530e88932255ada233ca4882a3596cd054b93395929bc1bef6e813f8c21"
+    },
+    {
+      "path": "ico/android-icon-144x144.png",
+      "size": 17432,
+      "sha256": "3ac0a1323cef9e64f03aaf1a2388a37a35794ce9da72bc196454677bb67532ae"
+    },
+    {
+      "path": "ico/android-icon-192x192.png",
+      "size": 28928,
+      "sha256": "d60fea2bbde90345aef199936cd598a40a40a4961ce0b287bc6e57193b75c6c6"
+    },
+    {
+      "path": "ico/android-icon-36x36.png",
+      "size": 1928,
+      "sha256": "6502ba6a0b4cf2066640c19c9b69d3bbf1d150e299e21bbc16828d0af386cb38"
+    },
+    {
+      "path": "ico/android-icon-48x48.png",
+      "size": 3027,
+      "sha256": "548d5aaf2b507cb1ea82d53fabea42bbae7b8398d44296d312bb2057020cca02"
+    },
+    {
+      "path": "ico/android-icon-72x72.png",
+      "size": 5680,
+      "sha256": "1f58296542e667c0b36d6cfb33944914382123daacb7dae5daae21ee86eddc08"
+    },
+    {
+      "path": "ico/android-icon-96x96.png",
+      "size": 8960,
+      "sha256": "dec2e246271d2b9235b0ed1a5f884f5b084138e5ba4580631de02d6dcb8c924f"
+    },
+    {
+      "path": "ico/apple-icon-114x114.png",
+      "size": 11890,
+      "sha256": "01e27f4e2d94c2b1c0d3e5975e13f9fc8657cce0082975ab76a8ca05298d602a"
+    },
+    {
+      "path": "ico/apple-icon-120x120.png",
+      "size": 12867,
+      "sha256": "c8faea8da5b25b7db7b32161bfb385fd67d4ecc9ecafaf491f1cd053ef27be95"
+    },
+    {
+      "path": "ico/apple-icon-144x144.png",
+      "size": 17432,
+      "sha256": "3ac0a1323cef9e64f03aaf1a2388a37a35794ce9da72bc196454677bb67532ae"
+    },
+    {
+      "path": "ico/apple-icon-152x152.png",
+      "size": 19084,
+      "sha256": "791942d22bab46deb457d7a921e23c9800f624c7aa8182cc0e3e95239d0e37f7"
+    },
+    {
+      "path": "ico/apple-icon-180x180.png",
+      "size": 25595,
+      "sha256": "2dedcede42f446e1af9f06f3fbf68b49a76c4992a57385f768fcddd5c5ff1922"
+    },
+    {
+      "path": "ico/apple-icon-57x57.png",
+      "size": 3936,
+      "sha256": "0d3752a2d4380f43c6aa22bead00f89828a227065308147337fceb90460fbe8e"
+    },
+    {
+      "path": "ico/apple-icon-60x60.png",
+      "size": 4225,
+      "sha256": "e89e97ba3e41ce06103884e80fd91594c6ca6e975b10be263158da0f94394b4e"
+    },
+    {
+      "path": "ico/apple-icon-72x72.png",
+      "size": 5680,
+      "sha256": "1f58296542e667c0b36d6cfb33944914382123daacb7dae5daae21ee86eddc08"
+    },
+    {
+      "path": "ico/apple-icon-76x76.png",
+      "size": 6140,
+      "sha256": "b8f8f886c9a85c4a4caa4bbc55485fef9cea0d81836ffc7627b78c955a52e6ef"
+    },
+    {
+      "path": "ico/apple-icon-precomposed.png",
+      "size": 28928,
+      "sha256": "d60fea2bbde90345aef199936cd598a40a40a4961ce0b287bc6e57193b75c6c6"
+    },
+    {
+      "path": "ico/apple-icon.png",
+      "size": 28928,
+      "sha256": "d60fea2bbde90345aef199936cd598a40a40a4961ce0b287bc6e57193b75c6c6"
+    },
+    {
+      "path": "ico/favicon-16x16.png",
+      "size": 600,
+      "sha256": "a3b046142ff739c7bb0e69e3494a93f9e59ae1dae699d95e195454b5ba1588cb"
+    },
+    {
+      "path": "ico/favicon-32x32.png",
+      "size": 1620,
+      "sha256": "6d0eec994f3f9c5301cd4190d3d81915839e7f97a250589ac194ba6fa8fbb368"
+    },
+    {
+      "path": "ico/favicon-96x96.png",
+      "size": 8960,
+      "sha256": "dec2e246271d2b9235b0ed1a5f884f5b084138e5ba4580631de02d6dcb8c924f"
+    },
+    {
+      "path": "ico/favicon.ico",
+      "size": 10282,
+      "sha256": "a77ab4ed36b63e7c7c92dd84cf5eb475559bf80831bcabc7f84b956296cb6216"
+    },
+    {
+      "path": "ico/manifest.json",
+      "size": 955,
+      "sha256": "42487b240630fc7238a44705f5e41baa654e0b0c13b8b3260120b22c73c91860"
+    },
+    {
+      "path": "ico/ms-icon-144x144.png",
+      "size": 17432,
+      "sha256": "3ac0a1323cef9e64f03aaf1a2388a37a35794ce9da72bc196454677bb67532ae"
+    },
+    {
+      "path": "ico/ms-icon-150x150.png",
+      "size": 18558,
+      "sha256": "3f89599dd75a12b7e636f16206c96873e52822973deec12a71f1d4a7a502f360"
+    },
+    {
+      "path": "ico/ms-icon-310x310.png",
+      "size": 73883,
+      "sha256": "adf2ca312140f1f17c3dd0698c46ba6366d579abdf493cb46ccf9f71af3266fa"
+    },
+    {
+      "path": "ico/ms-icon-70x70.png",
+      "size": 5464,
+      "sha256": "66d53e184347b4ffe2f99694b0d91e51610131cf526e4e4dd70ccd881bd64dfc"
+    },
+    {
+      "path": "img/evac1.jpg",
+      "size": 319162,
+      "sha256": "d823cb75f3cb159fdfae037792fdb997e3038cb81b1cb450aec7b3046e2fb492"
+    },
+    {
+      "path": "img/evac2.jpg",
+      "size": 107628,
+      "sha256": "f0613c85eda4b8ff588450fe92a60dfcb28e6d74ea092a41aa814522347b5d66"
+    },
+    {
+      "path": "img/evac3.jpg",
+      "size": 182678,
+      "sha256": "44c74599df35d7eb836bf0d54bf7d5e601795806678c036eec1543374f87d369"
+    },
+    {
+      "path": "img/team1.webp",
+      "size": 14994,
+      "sha256": "4c12d156914795bfb8cd57da4f1b988ad21d754bec35d18e038759761c46938f"
+    },
+    {
+      "path": "img/team2.webp",
+      "size": 13400,
+      "sha256": "3c51a306d55ac0558eec4ef0c89621b37ea619ad08521981ad4b84f4cce865af"
+    },
+    {
+      "path": "img/team3.webp",
+      "size": 15016,
+      "sha256": "3e809dcae205751edcf97175702d7104769518dd85b5029bc6443a803e614a7b"
+    },
+    {
+      "path": "img/team4.webp",
+      "size": 9996,
+      "sha256": "f0d4cd2945c1d5ffb83ce56e9212aaad2ef64297ea6ff9a27b2dda719d63e7ea"
+    },
+    {
+      "path": "logo.png",
+      "size": 75324,
+      "sha256": "b841bce201b754ef4b2d5ffcce74a729dcf1a35e77ad48cee4c327d9bd26c92b"
+    },
+    {
+      "path": "maxim.png",
+      "size": 4066,
+      "sha256": "d73830b0351da8416dd399681b2a79b242bb3f51a54e475130b472a9f6be62cb"
+    },
+    {
+      "path": "o/32.jpg",
+      "size": 13095,
+      "sha256": "da2b57d30c809dfcb23f09471d61b55229132865b6986da9eafe2e7ab4a48a94"
+    },
+    {
+      "path": "o/44.jpg",
+      "size": 14913,
+      "sha256": "3f212369bf3695a78bc7bb7a555a027e4b0e29af673af95daec594d82a9ef7b5"
+    },
+    {
+      "path": "o/75.jpg",
+      "size": 16041,
+      "sha256": "2c0ed139a9e4ab9d905bfa84eb3b3c3fdfb240d47fe8e0fa1263c32c994ca02b"
+    },
+    {
+      "path": "video/review1.jpg",
+      "size": 33194,
+      "sha256": "f8bfdc568e1a6e1a8a393a175a4fec08cd0424d2c94b671c90a11010453ae495"
+    },
+    {
+      "path": "video/review1.mp4",
+      "size": 3946223,
+      "sha256": "139b78452425a8125c7c42d3ec13800930c5c9479efaef7aee11e2267f403166"
+    },
+    {
+      "path": "video/review2.jpg",
+      "size": 47556,
+      "sha256": "519e61af0f7a403a0ec52205728cbd3d260f7d73dab1f81d4235dd0d30e37eaf"
+    },
+    {
+      "path": "video/review2.mp4",
+      "size": 5183312,
+      "sha256": "12f6e037339bfa51b10335ec1ffd8897b785a2f847e77c1572c6e2de40b7bf68"
+    },
+    {
+      "path": "video/review3.jpg",
+      "size": 40301,
+      "sha256": "115b08f37406e9583df4bdf33103f727a0b665a0f0e584742c6087f89a2087cb"
+    },
+    {
+      "path": "video/review3.mp4",
+      "size": 3178432,
+      "sha256": "4a4fd3267b509d6a7de616a8fac86f2be470edb1b39434bd37b4ca8bd047e62b"
+    },
+    {
+      "path": "video/review4.jpg",
+      "size": 34459,
+      "sha256": "01f65f4548cca1d71c8abe48197084d6fb91b7759bd56ff9b8a4f1168052e943"
+    },
+    {
+      "path": "video/review4.mp4",
+      "size": 3277744,
+      "sha256": "ef4f4b7ccc8d33a57185cdaa831d22232d1a33a0c42aad1078d8dc74cda4ec7c"
+    },
+    {
+      "path": "yandex_61727c9b433b985d.html",
+      "size": 161,
+      "sha256": "31561b1edf75e225bcc24459b94032f9ebb03b5cdec2a220c0f00342afd01ee6"
+    }
+  ]
+}

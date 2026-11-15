@@ -1,0 +1,39 @@
+# Local credentials and deployment files
+.env
+.env.*
+!.env.example
+config.local.php
+secrets/
+*.pem
+*.key
+
+# Customer requests and their uploaded photos
+/uploads/
+/login_attempts.json
+/orders.log
+/calls.log
+*.log
+*.lock
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+
+# Temporary copies and backups
+/backups/
+/cache/
+/tmp/
+*.zip
+!/preview-source.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.backup
+*~
+.DS_Store
+Thumbs.db
+
+# Generated GitHub Pages preview (assets remain in the repository only once)
+/dist/
+/dist-preview/
