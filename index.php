@@ -1555,14 +1555,14 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     <meta property="og:site_name" content="Автокай">
     <meta property="og:title" content="<?= pageEscape($pageTitle) ?>">
     <meta property="og:description" content="<?= pageEscape($pageDescription) ?>">
-    <meta property="og:image" content="https://avtokai.ru/logo.png?v=b841bce2">
+    <meta property="og:image" content="https://avtokai.ru/img/optimized/logo.webp?v=b841bce2">
     <meta property="og:url" content="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>">
     <meta property="og:locale" content="ru_RU">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?= pageEscape($pageTitle) ?>">
     <meta name="twitter:description" content="<?= pageEscape($pageDescription) ?>">
-    <meta name="twitter:image" content="https://avtokai.ru/logo.png?v=b841bce2">
+    <meta name="twitter:image" content="https://avtokai.ru/img/optimized/logo.webp?v=b841bce2">
     <meta property="og:image:width" content="836">
     <meta property="og:image:height" content="470">
     <meta property="og:image:alt" content="Автокай — срочный выкуп автомобилей">
@@ -5051,7 +5051,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
         <div class="header-wrapper">
             <div class="header-brand">
             <button class="logo-wrapper" type="button" aria-label="Автокай — обновить текущую страницу и вернуться наверх" title="Обновить страницу и вернуться наверх" onclick="reloadCurrentPageFromTop()">
-                <img class="logo-img" src="/logo.png?v=b841bce2" alt="Автокай" width="836" height="470" decoding="async">
+                <img class="logo-img" src="/img/optimized/logo.webp?v=b841bce2" alt="Автокай" width="836" height="470" decoding="async">
             </button>
             </div>
             
@@ -5375,7 +5375,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
         <div class="cases-grid">
             <div class="case-card" data-case="audi-coupe-2026-10-28">
                 <div class="case-image">
-                    <img src="/case-audi-coupe-2026-10-28.jpg" alt="Audi купе" loading="lazy" width="960" height="1280" decoding="async" style="object-position: center 83%;">
+                    <img src="/img/optimized/case-audi-coupe-2026-10-28.webp" alt="Audi купе" loading="lazy" width="960" height="1280" decoding="async" style="object-position: center 83%;">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Audi купе, 2010</div>
@@ -5392,7 +5392,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
            
     <div class="case-card">
         <div class="case-image">
-            <img src="/a/q2.jpg" alt="Hyundai Solaris" loading="lazy" width="1024" height="768" decoding="async">
+            <img src="/img/optimized/a-q2.webp" alt="Hyundai Solaris" loading="lazy" width="1024" height="768" decoding="async">
         </div>
         <div class="case-info">
             <div class="case-title">Hyundai Solaris, 2014</div>
@@ -5408,7 +5408,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     </div>
     <div class="case-card">
         <div class="case-image">
-            <img src="/a/q3.jpg" alt="Mitsubishi Pajero Sport" loading="lazy" width="1024" height="768" decoding="async">
+            <img src="/img/optimized/a-q3.webp" alt="Mitsubishi Pajero Sport" loading="lazy" width="1024" height="768" decoding="async">
         </div>
         <div class="case-info">
             <div class="case-title">Mitsubishi Pajero Sport, 2007</div>
@@ -5424,7 +5424,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     </div>
     <div class="case-card">
         <div class="case-image">
-            <img src="/a/q4.jpg" alt="Nissan X-Trail" loading="lazy" width="1024" height="772" decoding="async">
+            <img src="/img/optimized/a-q4.webp" alt="Nissan X-Trail" loading="lazy" width="1024" height="772" decoding="async">
         </div>
         <div class="case-info">
             <div class="case-title">Nissan X-Trail, 2010</div>
@@ -5440,7 +5440,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/2.jpg" alt="Ауди А4 Б5" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-2.webp" alt="Ауди А4 Б5" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Ауди А4 Б5, 1996</div>
@@ -5456,7 +5456,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/3.jpg" alt="Opel Astra J" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-3.webp" alt="Opel Astra J" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Opel Astra J, 2013</div>
@@ -5472,7 +5472,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/7.jpg" alt="Ford Mondeo 3" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-7.webp" alt="Ford Mondeo 3" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Ford Mondeo 3, 2005</div>
@@ -5488,7 +5488,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/8.jpg" alt="BMW E60" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-8.webp" alt="BMW E60" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">BMW E60, 2008</div>
@@ -5504,7 +5504,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/9.jpg" alt="Opel Insignia" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-9.webp" alt="Opel Insignia" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Opel Insignia, 2009</div>
@@ -5520,7 +5520,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/10.jpg" alt="Mitsubishi Lancer 9" loading="lazy" width="768" height="1024" decoding="async">
+                    <img src="/img/optimized/a-10.webp" alt="Mitsubishi Lancer 9" loading="lazy" width="768" height="1024" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Mitsubishi Lancer 9, 2007</div>
@@ -5536,7 +5536,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/12.jpg" alt="Chevrolet Cruze" loading="lazy" width="1024" height="768" decoding="async">
+                    <img src="/img/optimized/a-12.webp" alt="Chevrolet Cruze" loading="lazy" width="1024" height="768" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Chevrolet Cruze, 2012</div>
@@ -5552,7 +5552,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             </div>
             <div class="case-card">
                 <div class="case-image">
-                    <img src="/a/13.jpg" alt="Volkswagen Tiguan" loading="lazy" width="768" height="1024" decoding="async">
+                    <img src="/img/optimized/a-13.webp" alt="Volkswagen Tiguan" loading="lazy" width="768" height="1024" decoding="async">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Volkswagen Tiguan, 2019</div>
@@ -6132,7 +6132,7 @@ $allStations = $seoData;
             <div>
                 <div class="footer-logo">
                     <div class="footer-logo-img">
-                        <img src="/logo.png?v=b841bce2" alt="Автокай — выкуп авто" width="836" height="470" decoding="async" loading="lazy">
+                        <img src="/img/optimized/logo.webp?v=b841bce2" alt="Автокай — выкуп авто" width="836" height="470" decoding="async" loading="lazy">
                     </div>
                 </div>
                 <p class="footer-about">
@@ -6415,7 +6415,7 @@ $allStations = $seoData;
   "@id": "https://avtokai.ru/#organization",
   "name": "Автокай",
   "description": "Срочный выкуп автомобилей в Санкт-Петербурге. Деньги за 30 минут, бесплатный эвакуатор, любые авто.",
-  "image": "https://avtokai.ru/logo.png?v=b841bce2",
+  "image": "https://avtokai.ru/img/optimized/logo.webp?v=b841bce2",
   "telephone": "+7<?= substr(SITE_PHONE, 1) ?>",
   "email": "<?= SITE_EMAIL ?>",
   "address": {
@@ -6440,7 +6440,7 @@ $allStations = $seoData;
   "priceRange": "₽₽₽",
   "areaServed": "Санкт-Петербург и Ленинградская область",
   "url": "https://avtokai.ru/",
-  "logo": "https://avtokai.ru/logo.png?v=b841bce2"
+  "logo": "https://avtokai.ru/img/optimized/logo.webp?v=b841bce2"
 }
 </script>
 

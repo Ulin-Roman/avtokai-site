@@ -1,0 +1,93 @@
+[
+  {
+    "source": "logo.png",
+    "path": "img/optimized/logo.webp",
+    "sha256": "1e0c98ff4cc4da9e4a1538cfa042f1002aa28086e8ca5a2c8df92feffa67a96f",
+    "old_bytes": 75324,
+    "bytes": 17094
+  },
+  {
+    "source": "case-audi-coupe-2026-10-28.jpg",
+    "path": "img/optimized/case-audi-coupe-2026-10-28.webp",
+    "sha256": "7321c5bd2c296a9df0d1e127c7fa65f6b1a5f0a2c858a14c3bf4e92319d506e9",
+    "old_bytes": 274454,
+    "bytes": 136056
+  },
+  {
+    "source": "a/q2.jpg",
+    "path": "img/optimized/a-q2.webp",
+    "sha256": "b2a36f366ece8eca56691fa520cdf8346517412a780af888f5a0fb27a7bd6f7e",
+    "old_bytes": 116399,
+    "bytes": 42578
+  },
+  {
+    "source": "a/q3.jpg",
+    "path": "img/optimized/a-q3.webp",
+    "sha256": "9761261ceef2d595d23268ba18565b3600827e986592de9b8ec3af5e8df952bd",
+    "old_bytes": 104070,
+    "bytes": 34002
+  },
+  {
+    "source": "a/q4.jpg",
+    "path": "img/optimized/a-q4.webp",
+    "sha256": "b0bdc155d5cad65f26e94b2edca0b55ef90489a78f9016fe30be0587293d8054",
+    "old_bytes": 96534,
+    "bytes": 31236
+  },
+  {
+    "source": "a/2.jpg",
+    "path": "img/optimized/a-2.webp",
+    "sha256": "10052132e9244a3f30183ed019be5cbb893c8fbdb3fef64009374d2230312522",
+    "old_bytes": 100857,
+    "bytes": 34178
+  },
+  {
+    "source": "a/3.jpg",
+    "path": "img/optimized/a-3.webp",
+    "sha256": "fc4582bfc191439dd50e9ef7f13c16facd060047ab84ef1335b504915cc9ac44",
+    "old_bytes": 105524,
+    "bytes": 34008
+  },
+  {
+    "source": "a/7.jpg",
+    "path": "img/optimized/a-7.webp",
+    "sha256": "5baf83d88e4ff429f9240ef065465c49fc3f063042477162556df6311799d1fd",
+    "old_bytes": 100874,
+    "bytes": 34252
+  },
+  {
+    "source": "a/8.jpg",
+    "path": "img/optimized/a-8.webp",
+    "sha256": "6d5a3c58cc4b74515558186403e8a3cdb1824a7cc5fd5a0e5ee9296756ee6a35",
+    "old_bytes": 135217,
+    "bytes": 51170
+  },
+  {
+    "source": "a/9.jpg",
+    "path": "img/optimized/a-9.webp",
+    "sha256": "ee727f93d4349fb94a52ead448d559efd198a42be342eedf9f4aed60e50184dd",
+    "old_bytes": 217586,
+    "bytes": 98256
+  },
+  {
+    "source": "a/10.jpg",
+    "path": "img/optimized/a-10.webp",
+    "sha256": "6352fca6e4ba149abe4aafab824b2244180947c75c728eb15b5ffb4b9af03b04",
+    "old_bytes": 123896,
+    "bytes": 71750
+  },
+  {
+    "source": "a/12.jpg",
+    "path": "img/optimized/a-12.webp",
+    "sha256": "62937bf974934f62761eca675f04e176dee204b00fe8f6a901d3537a8fccad15",
+    "old_bytes": 199838,
+    "bytes": 92498
+  },
+  {
+    "source": "a/13.jpg",
+    "path": "img/optimized/a-13.webp",
+    "sha256": "6367cd435627b2bcf6c9481ad0efb1e34323116547e89ec87f1637c8da19e715",
+    "old_bytes": 130474,
+    "bytes": 77122
+  }
+]
