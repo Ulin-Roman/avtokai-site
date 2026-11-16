@@ -907,7 +907,7 @@ $isPhotoHero = $isDesktopPhotoHero;
 $isOldCarHero = $isServicePage && $serviceSlug === 'vykup-staryh-avto';
 $isBityhHero = $isServicePage && $serviceSlug === 'vykup-bityh-avto';
 $isPortraitHero = $isPhoneHero;
-$portraitHeroImageUrl = ($isBityhHero || ($isServicePage && $serviceSlug === 'vykup-avto-posle-dtp')) ? '/hero-vykup-bityh-mobile.webp?v=e75b29bfac55' : '/hero-avtovykup-cash.webp?v=71f9e049a4c0';
+$portraitHeroImageUrl = ($isBityhHero || ($isServicePage && $serviceSlug === 'vykup-avto-posle-dtp')) ? '/img/optimized/hero-vykup-bityh-mobile-20261116.webp?v=e75b29bfac55' : '/img/optimized/hero-avtovykup-cash-20261116.webp?v=71f9e049a4c0';
 // Presentation copy for the shared phone hero; route and SEO metadata stay separate.
 $phoneHeroOffers = [
     'avtovykup-v-spb' => [
@@ -1571,7 +1571,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>">
     <?php if ($isPhoneHero): ?>
     <link rel="preload" href="<?= $portraitHeroImageUrl ?>" as="image" type="image/webp" media="(max-width: <?= $phoneHeroMobileMaxWidth ?>px)" fetchpriority="high">
-<?php if ($isDesktopPhotoHero): ?>    <link rel="preload" href="/hero-prodat-phone.webp?v=0141e18b9b90" as="image" type="image/webp" media="(min-width: <?= $phoneHeroDesktopMinWidth ?>px)" fetchpriority="high"><?php else: ?>
+<?php if ($isDesktopPhotoHero): ?>    <link rel="preload" href="/img/optimized/hero-prodat-phone-20261116.webp?v=0141e18b9b90" as="image" type="image/webp" media="(min-width: <?= $phoneHeroDesktopMinWidth ?>px)" fetchpriority="high"><?php else: ?>
     <link rel="preload" href="/hero-car.jpg?v=fa086346" as="image" media="(min-width: <?= $phoneHeroDesktopMinWidth ?>px)" fetchpriority="high">
 <?php endif; ?>
     <?php else: ?>
@@ -4504,12 +4504,12 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
             }
             .hero--sell::before {
                 left: 0; width: max(0px, calc((100% - var(--hero-canvas-width)) / 2 + var(--hero-wing-shift) + 1px));
-                background-image: linear-gradient(#070707b3, #070707b3), url('/hero-prodat-phone.webp?v=0141e18b9b90');
+                background-image: linear-gradient(#070707b3, #070707b3), url('/img/optimized/hero-prodat-phone-20261116.webp?v=0141e18b9b90');
                 background-size: 100% 100%, max(var(--hero-canvas-width), 326.555023923445%) 100%; background-position: left top;
             }
             .hero--sell::after {
                 right: 0; width: max(0px, calc((100% - var(--hero-canvas-width)) / 2 - var(--hero-wing-shift) + 1px));
-                background-image: url('/hero-prodat-phone.webp?v=0141e18b9b90');
+                background-image: url('/img/optimized/hero-prodat-phone-20261116.webp?v=0141e18b9b90');
                 background-size: max(var(--hero-canvas-width), 326.555023923445%) 100%; background-position: right top;
             }
             .hero--sell .hero-content { position: absolute; left: var(--hero-grid-inset); top: 6.5%; width: min(44%, max(540px, calc(var(--hero-stage-width) * .37037037037))); }
@@ -5113,7 +5113,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
 <main id="main-content">
 <section class="hero<?= $isPhotoHero ? ' hero--vykup' : '' ?><?= $isPhoneHero ? ' hero--sell' : '' ?><?= $isPhoneHero ? ' hero--offer' : '' ?><?= $isStationHero ? ' hero--station' : '' ?><?= $isAutovykupPage ? ' hero--legacy' : '' ?><?= $isHomeHero ? ' hero--home' : '' ?>">
     <?php if ($isDesktopPhotoHero): ?>
-    <div class="hero-background" aria-hidden="true"><picture><source media="(max-width: <?= $phoneHeroMobileMaxWidth ?>px)" srcset="<?= pageEscape($portraitHeroImageUrl) ?>"><img src="/hero-prodat-phone.webp?v=0141e18b9b90" width="4095" height="991" alt="" fetchpriority="high" decoding="async"></picture></div>
+    <div class="hero-background" aria-hidden="true"><picture><source media="(max-width: <?= $phoneHeroMobileMaxWidth ?>px)" srcset="<?= pageEscape($portraitHeroImageUrl) ?>"><img src="/img/optimized/hero-prodat-phone-20261116.webp?v=0141e18b9b90" width="4095" height="991" alt="" fetchpriority="high" decoding="async"></picture></div>
     <?php else: ?>
     <div class="hero-background"></div>
     <?php endif; ?>

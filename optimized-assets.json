@@ -89,5 +89,26 @@
     "sha256": "6367cd435627b2bcf6c9481ad0efb1e34323116547e89ec87f1637c8da19e715",
     "old_bytes": 130474,
     "bytes": 77122
+  },
+  {
+    "source": "hero-avtovykup-cash.webp",
+    "path": "img/optimized/hero-avtovykup-cash-20261116.webp",
+    "sha256": "32e14a4e21fc37ba6f5daa07e5a649051e5995f30cc603426b1ea12e5bcea836",
+    "bytes": 84000,
+    "old_bytes": 273180
+  },
+  {
+    "source": "hero-vykup-bityh-mobile.webp",
+    "path": "img/optimized/hero-vykup-bityh-mobile-20261116.webp",
+    "sha256": "cc903f17b61ade223a706cbd56abeb1d516755dfcc113e455ae222ebb9d235eb",
+    "bytes": 95730,
+    "old_bytes": 302456
+  },
+  {
+    "source": "hero-prodat-phone.webp",
+    "path": "img/optimized/hero-prodat-phone-20261116.webp",
+    "sha256": "75bba0ae88a1518e9e23b3c7e586a8a88dbcb051eab02f3e9d36fd64b17fb3a0",
+    "bytes": 159044,
+    "old_bytes": 551642
   }
 ]
