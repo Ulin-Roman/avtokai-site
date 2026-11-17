@@ -23,6 +23,75 @@ jobs:
               assert len(data) == asset['bytes'] and hashlib.sha256(data).hexdigest() == asset['sha256'], path
               path.parent.mkdir(parents=True, exist_ok=True)
               path.write_bytes(data)
+          case_assets = {"/img/optimized/a-10.webp":{"small":"/img/optimized/a-10-384w.webp","width":720,"bytes":17414,"original_bytes":71750,"sha256":"d6aee28d8c7632b7306549333d7d8ef20e7ba2d23b5376c61b7e310da659bc34"},"/img/optimized/a-12.webp":{"small":"/img/optimized/a-12-384w.webp","width":720,"bytes":22966,"original_bytes":92498,"sha256":"7775dd3b25e50432f1bf6ef064f851865995a45aadea5b03e9acf2e1eae99150"},"/img/optimized/a-13.webp":{"small":"/img/optimized/a-13-384w.webp","width":720,"bytes":21252,"original_bytes":77122,"sha256":"20c405e7a27cbda17d9e89f4e6309699a86fe3b12c8c837280b22fd90be25add"},"/img/optimized/a-2.webp":{"small":"/img/optimized/a-2-384w.webp","width":720,"bytes":10694,"original_bytes":34178,"sha256":"3aa43fc2f1d9b0c3931f4f75e516d9622cb220f70280058ef3e00446e124e890"},"/img/optimized/a-3.webp":{"small":"/img/optimized/a-3-384w.webp","width":720,"bytes":10052,"original_bytes":34008,"sha256":"1580120fa17714453f373b4e0af3194c51d1529318f9341f9cea6362a028965c"},"/img/optimized/a-7.webp":{"small":"/img/optimized/a-7-384w.webp","width":720,"bytes":10660,"original_bytes":34252,"sha256":"82371a7abea1838cc2d5c442b7d241b322a65387bbe455f8f6932b8bd46506fb"},"/img/optimized/a-8.webp":{"small":"/img/optimized/a-8-384w.webp","width":720,"bytes":13410,"original_bytes":51170,"sha256":"d05aebfc50d5ba78e45c28640e797217f49f0d85ee1cf0a11052cb9f6f68e14b"},"/img/optimized/a-9.webp":{"small":"/img/optimized/a-9-384w.webp","width":720,"bytes":24572,"original_bytes":98256,"sha256":"16b3bb940a43d0f4b39856269331044667e90d82a860a378891856f9b57d6869"},"/img/optimized/a-q2.webp":{"small":"/img/optimized/a-q2-384w.webp","width":720,"bytes":11874,"original_bytes":42578,"sha256":"c00a96ae3b1a4cc369029c1b9503be375d6367e693f5603e54ccf90eb39f3614"},"/img/optimized/a-q3.webp":{"small":"/img/optimized/a-q3-384w.webp","width":720,"bytes":10212,"original_bytes":34002,"sha256":"fde6453febc49c14dea661fc5ef325a98399f7e4bf4cb03001ac3c6324b569ad"},"/img/optimized/a-q4.webp":{"small":"/img/optimized/a-q4-384w.webp","width":720,"bytes":8600,"original_bytes":31236,"sha256":"5cd518df358137a91cc1698606645893651763bf9fc473e5b0a1e3019f564e77"},"/img/optimized/case-audi-coupe-2026-10-28.webp":{"small":"/img/optimized/case-audi-coupe-2026-10-28-384w.webp","width":720,"bytes":33148,"original_bytes":136056,"sha256":"d757745588e0a442bdc1795753a712ddff59e7e2afc9de21e1b5cb48a3d555bf"}}
+          for info in case_assets.values():
+              path = Path(info['small'].lstrip('/'))
+              with urlopen('https://avtokai.ru' + info['small'], timeout=40) as response:
+                  data = response.read()
+              assert len(data) == info['bytes'] and hashlib.sha256(data).hexdigest() == info['sha256'], path
+              path.write_bytes(data)
+
+          def rewrite(text):
+              for asset in assets:
+                  text = text.replace('/' + asset['source'], '/' + asset['path'])
+              for large, info in case_assets.items():
+                  start = '<img src="' + large + '"'
+                  attr = (' srcset="' + info['small'] + ' 384w, ' + large + ' ' + str(info['width']) + 'w"'
+                          ' sizes="auto, (max-width: 620px) 90vw, (max-width: 1000px) 45vw, 320px"')
+                  if start + attr not in text:
+                      text = text.replace(start, start + attr)
+              return text
+          source = Path('index.php')
+          source.write_text(rewrite(source.read_text()))
+          assert source.read_text().count('sizes="auto, (max-width: 620px)') == len(case_assets)
+          with ZipFile('preview-source.zip') as archive:
+              entries = [(info.filename, archive.read(info.filename)) for info in archive.infolist()]
+          with ZipFile('preview-source.zip', 'w', compression=ZIP_DEFLATED, compresslevel=9) as archive:
+              for name, data in entries:
+                  archive.writestr(name, rewrite(data.decode()).encode() if name.endswith('.html') else data)
+          Path('optimized-assets.json').write_text(json.dumps(assets, indent=2) + '\n')
+          print('Verified and synchronized', len(assets), 'optimized public images')
+          
+          PY
+      - name: Validate source and preview
+        run: |
+          php -l index.php
+          python3 build-preview.py --output dist-preview
+          git diff --check
+      - name: Commit optimized images and templates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.php preview-source.zip optimized-assets.json img/optimized/
+          if ! git diff --cached --quiet; then
+            git commit -m "Serve smaller case photos on narrow screens"
+            git push
+          fi
+name: Sync audited image optimization
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import verified optimized images and update references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.request import urlopen
+          from zipfile import ZipFile, ZIP_DEFLATED
+          import hashlib, json
+          assets = [{"source":"logo.png","path":"img/optimized/logo.webp","sha256":"1e0c98ff4cc4da9e4a1538cfa042f1002aa28086e8ca5a2c8df92feffa67a96f","old_bytes":75324,"bytes":17094},{"source":"case-audi-coupe-2026-10-28.jpg","path":"img/optimized/case-audi-coupe-2026-10-28.webp","sha256":"7321c5bd2c296a9df0d1e127c7fa65f6b1a5f0a2c858a14c3bf4e92319d506e9","old_bytes":274454,"bytes":136056},{"source":"a/q2.jpg","path":"img/optimized/a-q2.webp","sha256":"b2a36f366ece8eca56691fa520cdf8346517412a780af888f5a0fb27a7bd6f7e","old_bytes":116399,"bytes":42578},{"source":"a/q3.jpg","path":"img/optimized/a-q3.webp","sha256":"9761261ceef2d595d23268ba18565b3600827e986592de9b8ec3af5e8df952bd","old_bytes":104070,"bytes":34002},{"source":"a/q4.jpg","path":"img/optimized/a-q4.webp","sha256":"b0bdc155d5cad65f26e94b2edca0b55ef90489a78f9016fe30be0587293d8054","old_bytes":96534,"bytes":31236},{"source":"a/2.jpg","path":"img/optimized/a-2.webp","sha256":"10052132e9244a3f30183ed019be5cbb893c8fbdb3fef64009374d2230312522","old_bytes":100857,"bytes":34178},{"source":"a/3.jpg","path":"img/optimized/a-3.webp","sha256":"fc4582bfc191439dd50e9ef7f13c16facd060047ab84ef1335b504915cc9ac44","old_bytes":105524,"bytes":34008},{"source":"a/7.jpg","path":"img/optimized/a-7.webp","sha256":"5baf83d88e4ff429f9240ef065465c49fc3f063042477162556df6311799d1fd","old_bytes":100874,"bytes":34252},{"source":"a/8.jpg","path":"img/optimized/a-8.webp","sha256":"6d5a3c58cc4b74515558186403e8a3cdb1824a7cc5fd5a0e5ee9296756ee6a35","old_bytes":135217,"bytes":51170},{"source":"a/9.jpg","path":"img/optimized/a-9.webp","sha256":"ee727f93d4349fb94a52ead448d559efd198a42be342eedf9f4aed60e50184dd","old_bytes":217586,"bytes":98256},{"source":"a/10.jpg","path":"img/optimized/a-10.webp","sha256":"6352fca6e4ba149abe4aafab824b2244180947c75c728eb15b5ffb4b9af03b04","old_bytes":123896,"bytes":71750},{"source":"a/12.jpg","path":"img/optimized/a-12.webp","sha256":"62937bf974934f62761eca675f04e176dee204b00fe8f6a901d3537a8fccad15","old_bytes":199838,"bytes":92498},{"source":"a/13.jpg","path":"img/optimized/a-13.webp","sha256":"6367cd435627b2bcf6c9481ad0efb1e34323116547e89ec87f1637c8da19e715","old_bytes":130474,"bytes":77122},{"source":"hero-avtovykup-cash.webp","path":"img/optimized/hero-avtovykup-cash-20261116.webp","sha256":"32e14a4e21fc37ba6f5daa07e5a649051e5995f30cc603426b1ea12e5bcea836","bytes":84000,"old_bytes":273180},{"source":"hero-vykup-bityh-mobile.webp","path":"img/optimized/hero-vykup-bityh-mobile-20261116.webp","sha256":"cc903f17b61ade223a706cbd56abeb1d516755dfcc113e455ae222ebb9d235eb","bytes":95730,"old_bytes":302456},{"source":"hero-prodat-phone.webp","path":"img/optimized/hero-prodat-phone-20261116.webp","sha256":"75bba0ae88a1518e9e23b3c7e586a8a88dbcb051eab02f3e9d36fd64b17fb3a0","bytes":159044,"old_bytes":551642}]
+          for asset in assets:
+              path = Path(asset['path'])
+              with urlopen('https://avtokai.ru/' + asset['path'], timeout=40) as response:
+                  data = response.read()
+              assert len(data) == asset['bytes'] and hashlib.sha256(data).hexdigest() == asset['sha256'], path
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_bytes(data)
           def rewrite(text):
               for asset in assets:
                   text = text.replace('/' + asset['source'], '/' + asset['path'])
