@@ -1563,8 +1563,8 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
     <meta name="twitter:title" content="<?= pageEscape($pageTitle) ?>">
     <meta name="twitter:description" content="<?= pageEscape($pageDescription) ?>">
     <meta name="twitter:image" content="https://avtokai.ru/img/optimized/logo.webp?v=b841bce2">
-    <meta property="og:image:width" content="836">
-    <meta property="og:image:height" content="470">
+    <meta property="og:image:width" content="440">
+    <meta property="og:image:height" content="247">
     <meta property="og:image:alt" content="Автокай — срочный выкуп автомобилей">
     <meta name="twitter:image:alt" content="Автокай — срочный выкуп автомобилей">
     
