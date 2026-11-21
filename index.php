@@ -5375,7 +5375,7 @@ if ($isPhoneHero) header('Vary: User-Agent', false);
         <div class="cases-grid">
             <div class="case-card" data-case="audi-coupe-2026-10-28">
                 <div class="case-image">
-                    <img src="/img/optimized/case-audi-coupe-2026-10-28.webp" srcset="/img/optimized/case-audi-coupe-2026-10-28-384w.webp 384w, /img/optimized/case-audi-coupe-2026-10-28.webp 720w" sizes="auto, (max-width: 620px) 90vw, (max-width: 1000px) 45vw, 320px" alt="Audi купе" loading="lazy" width="960" height="1280" decoding="async" style="object-position: center 83%;">
+                    <img src="/img/optimized/case-audi-coupe-20261121.webp" srcset="/img/optimized/case-audi-coupe-2026-10-28-384w.webp 384w, /img/optimized/case-audi-coupe-20261121.webp 720w" sizes="auto, (max-width: 620px) 90vw, (max-width: 1000px) 45vw, 320px" alt="Audi купе" loading="lazy" width="960" height="1280" decoding="async" style="object-position: center 83%;">
                 </div>
                 <div class="case-info">
                     <div class="case-title">Audi купе, 2010</div>
