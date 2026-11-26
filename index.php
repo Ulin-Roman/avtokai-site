@@ -8249,18 +8249,6 @@ document.querySelectorAll('#orderForm input, #orderForm select').forEach(field =
     });
 });
 
-// ============================================
-// ПРОВЕРКА РАБОТОСПОСОБНОСТИ МЕТРИКИ
-// ============================================
-setTimeout(() => {
-    if (typeof ym !== 'undefined') {
-        console.log('✅ Яндекс.Метрика загружена и работает');
-        console.log('📊 ID счетчика: 106799647');
-        console.log('🎯 ID цели для форм: 3331212');
-    } else {
-        console.error('❌ Яндекс.Метрика НЕ загружена! Проверьте подключение');
-    }
-}, 3000);
 </script>
 
 <noscript>
